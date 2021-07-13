@@ -1,0 +1,19 @@
+﻿[*.cs]
+
+# IDE0055: Corrigir a formatação
+dotnet_diagnostic.IDE0055.severity = silent
+
+# CA1822: Marcar membros como estáticos
+dotnet_diagnostic.CA1822.severity = silent
+
+# IDE0051: Remover membros privados não utilizados
+dotnet_diagnostic.IDE0051.severity = silent
+
+# IDE0090: Usar 'new(...)'
+dotnet_diagnostic.IDE0090.severity = silent
+
+# IDE0017: Simplificar a inicialização de objeto
+dotnet_diagnostic.IDE0017.severity = silent
+
+# IDE0054: Usar o operador '++'
+dotnet_diagnostic.IDE0054.severity = silent
