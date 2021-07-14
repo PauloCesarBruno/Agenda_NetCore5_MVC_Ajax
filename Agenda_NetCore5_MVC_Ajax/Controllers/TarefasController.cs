@@ -19,7 +19,7 @@ namespace Agenda_NetCore5_MVC_Ajax.Controllers
             return View(PegarDatas());
         }
 
-        // Função dentro do Index -> "Pegar as Datas".
+        // Função dentro do Index -> "Para Pegar as Datas".
         private List<DatasViewModel> PegarDatas()
         {
             DateTime dataAtual = DateTime.Now;
