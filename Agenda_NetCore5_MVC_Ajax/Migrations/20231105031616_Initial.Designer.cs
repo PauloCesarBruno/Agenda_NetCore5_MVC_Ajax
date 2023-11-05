@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Agenda_NetCore5_MVC_Ajax.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20210712153155_criacaoDB")]
-    partial class criacaoDB
+    [Migration("20231105031616_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
